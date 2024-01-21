@@ -1,0 +1,311 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "email": "admin@gmail.com",
+      "emailConfirm": false,
+      "password": "12345",
+      "role": "admin",
+      "status": "active",
+      "createAt": "1663223",
+      "updateAt": "161123321",
+      "ipList": [
+        "12121212"
+      ]
+    },
+    {
+      "userName": "qwe",
+      "email": "lekimlan0205@gmail.com",
+      "password": "YaMieu_1795590990103918000",
+      "emailConfirm": false,
+      "role": "admin",
+      "status": "active",
+      "createAt": "1703307870019",
+      "updateAt": "1703592857505",
+      "ipList": [
+        "12121214",
+        "12121215",
+        "12121216",
+        "12121217"
+      ],
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/module-2-project-b8e95.appspot.com/o/avatar%2Fimage_1656437534801.6873.png?alt=media&token=69d5ed84-8c63-408a-8e33-2f3b8097c9f2",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Eragon 2",
+      "author": "Author 1",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/module-2-project-b8e95.appspot.com/o/avatar%2Fimage_1068866611155.2753.jpg?alt=media&token=b425340e-9207-4eac-9a1c-773a4880497c",
+      "publisher": "Test",
+      "publicationDate": null,
+      "preface": "Book 1 intro",
+      "fee": "10000",
+      "categories": [
+        "4",
+        "7"
+      ],
+      "copy": "10",
+      "borrowing": 0,
+      "status": true,
+      "rating": 3.5,
+      "ratingCount": 6,
+      "review": [],
+      "acquireDate": 1694131200000
+    },
+    {
+      "id": 2,
+      "title": "Shadowsun: The Patient Hunter",
+      "author": "Phil Kelly",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/module-2-project-b8e95.appspot.com/o/avatar%2Fimage_1546256766386.703.jpg?alt=media&token=d15d7b59-3444-40a9-9d88-8ce380d990b6",
+      "publisher": "Games Workshop",
+      "publicationDate": 1682035200000,
+      "preface": "qweqweqwe",
+      "fee": 20000,
+      "categories": [
+        "3"
+      ],
+      "copy": 5,
+      "borrowing": 0,
+      "status": true,
+      "rating": 0,
+      "ratingCount": 0,
+      "review": [],
+      "acquireDate": 1682035200000
+    },
+    {
+      "title": "Harry Potter",
+      "author": "J. K. Rowling",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/module-2-project-b8e95.appspot.com/o/avatar%2Fimage_698625337079.8029.jpg?alt=media&token=9037350c-54b8-4cc0-87ee-95df3ee21914",
+      "publisher": "Bloomsbury Childrens Books",
+      "publicationDate": 1409529600000,
+      "preface": "huewgtguywegiuweg",
+      "fee": 15000,
+      "categories": [
+        "4",
+        "6"
+      ],
+      "copy": 10,
+      "borrowing": 8,
+      "status": true,
+      "rating": 0,
+      "ratingCount": 0,
+      "review": [],
+      "acquireDate": 1703511193101,
+      "id": 3
+    },
+    {
+      "title": "Cirque Du Freak",
+      "author": "Darren Shan",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/module-2-project-b8e95.appspot.com/o/avatar%2Fimage_1168749905896.8604.jpg?alt=media&token=fd88dac9-7faa-4586-979e-3e0bddef3bd0",
+      "publisher": "HarperCollinsChildren’sBooks",
+      "publicationDate": null,
+      "preface": "wfuqifgqufyuvdweg",
+      "fee": "20000",
+      "categories": [
+        "4",
+        "1"
+      ],
+      "copy": "5",
+      "borrowing": 0,
+      "status": true,
+      "rating": 0,
+      "ratingCount": 11,
+      "review": [],
+      "acquireDate": 1703511299793,
+      "id": 4
+    },
+    {
+      "title": "Secrets of the Stars",
+      "author": "Inez N. McFee",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/module-2-project-b8e95.appspot.com/o/avatar%2Fimage_1055930039853.0337.jpg?alt=media&token=79400ed5-0ed5-4a29-8b10-0b6643513325",
+      "publisher": "Forgotten Books",
+      "publicationDate": 1535500800000,
+      "preface": "qeiqgeiqbefiubqeqv",
+      "fee": 30000,
+      "categories": [
+        "7",
+        "8"
+      ],
+      "copy": 2,
+      "borrowing": 2,
+      "status": true,
+      "rating": 0,
+      "ratingCount": 0,
+      "review": [],
+      "acquireDate": 1703511459060,
+      "id": 5
+    },
+    {
+      "title": "Quadehar the Sorcerer",
+      "author": "Erik L'Homme",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/module-2-project-b8e95.appspot.com/o/avatar%2Fimage_385668372421.197.jpg?alt=media&token=3fd87264-bb46-42b0-b2ba-1b6521cc208d",
+      "publisher": "Chicken House",
+      "publicationDate": 1057536000000,
+      "preface": "iqufgiqugfiuqgfvuqei",
+      "fee": 25000,
+      "categories": [
+        "4",
+        "2",
+        "6"
+      ],
+      "copy": 7,
+      "borrowing": 0,
+      "status": true,
+      "rating": 3.6166666666666663,
+      "ratingCount": 60,
+      "review": [],
+      "acquireDate": 1703511608155,
+      "id": 6
+    }
+  ],
+  "Receipts": [
+    {
+      "id": 99,
+      "totalFee": 0,
+      "userId": 99,
+      "createAt": "1701350569379",
+      "payMode": "cash",
+      "paid": false,
+      "paidAt": "1701350569379",
+      "status": "pending",
+      "peddingAt": "1701350569379",
+      "acceptedAt": "1701350569379",
+      "shippingAt": "1701350569379",
+      "doneAt": "1701350569379",
+      "detail": [
+        {
+          "id": 1233211213,
+          "productId": 1,
+          "note": "adassda"
+        },
+        {
+          "id": 1233211213,
+          "productId": 2,
+          "note": "adassda"
+        }
+      ]
+    },
+    {
+      "id": "PAY_1472301414069",
+      "total": 0,
+      "userId": 2,
+      "createAt": "1703568814354",
+      "payMode": "cash",
+      "paid": false,
+      "paidAt": null,
+      "plan": "week",
+      "status": "borrowing",
+      "peddingAt": null,
+      "acceptedAt": "1703568814354",
+      "shippingAt": null,
+      "doneAt": null,
+      "detail": [
+        {
+          "id": "35937790347",
+          "productId": 5,
+          "quantity": 1,
+          "note": null
+        },
+        {
+          "id": "1086666372847",
+          "productId": 4,
+          "quantity": 1,
+          "note": null
+        }
+      ],
+      "totalFee": 50000,
+      "pendingAt": "1703575427597"
+    },
+    {
+      "id": "PAY_1298282995661",
+      "total": 0,
+      "userId": 2,
+      "createAt": "1703575582040",
+      "payMode": "cash",
+      "paid": false,
+      "paidAt": null,
+      "plan": null,
+      "status": "browsing",
+      "peddingAt": null,
+      "acceptedAt": "1703575582040",
+      "shippingAt": null,
+      "doneAt": null,
+      "detail": []
+    }
+  ],
+  "comments": [
+    {
+      "id": 512654352820.10254,
+      "productId": "2",
+      "userId": 2,
+      "content": "test Shadowsun",
+      "createAt": 1703572583010
+    },
+    {
+      "id": 466857914819.0286,
+      "productId": "1",
+      "userId": 2,
+      "content": "test Eragon",
+      "createAt": 1703572595635
+    },
+    {
+      "id": 344208443090.61993,
+      "productId": "4",
+      "userId": 2,
+      "content": "test Darren Shan",
+      "createAt": 1703572611706
+    },
+    {
+      "id": 826852523791.4904,
+      "productId": "6",
+      "userId": 2,
+      "content": "test ",
+      "createAt": 1703592529361
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Romance"
+    },
+    {
+      "id": 2,
+      "title": "Drama"
+    },
+    {
+      "id": 3,
+      "title": "Sci-fi"
+    },
+    {
+      "id": 4,
+      "title": "Fantasy"
+    },
+    {
+      "id": 5,
+      "title": "Slice-of-life"
+    },
+    {
+      "id": 6,
+      "title": "School"
+    },
+    {
+      "id": 7,
+      "title": "Education"
+    },
+    {
+      "id": 8,
+      "title": "Science"
+    },
+    {
+      "id": 9,
+      "title": "Horror"
+    },
+    {
+      "id": 10,
+      "title": "History"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+footer {
+    width: 100%;
+    height: $footerHeight;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    // position: relative;
+    // ::before {
+    //     content: "";
+    //     position: absolute;
+    //     top: -5px;
+    //     left: 0;
+    //     right: 0;
+    //     height: 5px;
+    //     background: rgba(0, 0, 0, 0.1);
+    //     border-radius: 10px;
+    // }
+    .footer_content {
+        width: 100%;
+        max-width: $maxWidth;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            width: 20%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+            img {
+                width: 150px;
+                height: 150px;
+            };
+            h2 {
+                font-size: $fontL;
+                font-weight: bold;
+                color: rgb(243,161,14);
+            }
+        }
+        .links {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 20px;
+
+        }
+        .map {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

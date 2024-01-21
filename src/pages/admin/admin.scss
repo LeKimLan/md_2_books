@@ -1,0 +1,244 @@
+.admin_page {
+    width: 100%;
+    height: 100vh;
+    background: #eee url('https://i.imgur.com/eeQeRmk.png');
+    nav {
+        width: 100%;
+        height: 60px;
+        background-color: aquamarine;
+        padding: 10px 100px;
+        font-size: $fontM;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            :hover {
+                cursor: pointer;
+            }
+            img {
+                height: 70px;
+                z-index: 999;
+            }
+        }
+        .user {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            span {
+                color: black;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-left: 10px;
+            }
+            .dropdown {
+                button {
+                    color: black;
+                }
+                .dropdown-toggle {
+                    outline: unset !important;
+                    border: unset !important;
+                    background-color: transparent !important;
+                }
+            }
+        }
+    }
+    .admin_container {
+        width: 100%;
+        height: calc(100vh - 60px);
+        display: flex;
+        .menu_bar {
+            width: 210px;
+            height: 100%;
+            background: white;
+            transition: all 0.2s;
+            transform: translateX(0%);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+            opacity: 1;
+            &.hidden {
+                width: 0px;
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            .menu_item {
+                .menu_item_sub {
+                    cursor: pointer;
+                    margin: 10px 0;
+                    transform: translateY(0);
+                    opacity: 1;
+                    transition: all 0.2s;
+                    height: 100px;
+                    li {
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                    &.hidden {
+                        height: 0;
+                        transform: translateY(-100%);
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        .content {
+            transition: all 0.2s;
+            flex: 1;
+            height: 100%;
+            background: transparent;
+            padding: 10px;
+            .history {
+                width: 100%;
+                height: 30px;
+                font-size: $fontM;
+                display: flex;
+                align-items: center;
+                background-color: white;
+                padding: 5px;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                span {
+                    margin-left: 5px;
+                    cursor: pointer;
+                    transition: all 0.2s;
+                    &:hover {
+                        color: rgb(197,138,249);
+                        font-weight: 900;
+                        transform: scale(1.1);
+                    }
+                    &:hover::before {
+                        color: black;
+                        transform: unset;
+                        font-weight: normal;
+                    }
+                    &::before {
+                        content: "/";
+                        display: inline-block;
+                        width: 5px;
+                        height: 100%;
+                        margin-right: 10px;
+                        cursor: unset;
+                        text-align: center;
+                    }
+                    &:first-child::before {
+                        content: "";
+                    }
+                }
+            }
+            .content_body {
+                width: 100%;
+                font-size: $fontM;
+                border-radius: 5px;
+                background-color: white;
+                height: 100%;
+                position: relative;
+                padding: 10px 20px;
+                h1 {
+                    margin-bottom: 0;
+                }
+                .product_site {
+                    width: 100%;
+                    height: 620px;
+                    padding: 10px 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .product_box {
+                        width: 180px;
+                        height: 270px;
+                        border: 2px solid black;
+                        border-radius: 7px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+                        margin-right: 30px;
+                        .product_img {
+                            width: 150px;
+                            height: 200px;
+                        }
+                    }
+                }
+                
+                .btn {
+                    &.btn-danger{
+                        margin-right: 10px;
+                    }
+                }
+                .product_create, .product_update {
+                    width: 100%;
+                    height: calc(100vh - (60px + 50px));
+                    background-color:rgba(black, 0.7);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    form {
+                        width: 600px;
+                        height: 620px;
+                        background-color: white;
+                        border-radius: 10px;
+                        padding: 10px;
+                        position: relative;
+                        // overflow: hidden;
+                        // overflow-y: scroll;
+                        .category {
+                            display: flex;
+                        }
+                        .btn_box {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            &.save {
+                                position: absolute;
+                                bottom: 10px;
+                                right: 10px;
+                                justify-content: flex-end;
+                            }
+                        }
+                    }
+                }
+                .category_create{
+                    width: 100%;
+                    height: calc(100vh - (60px + 50px));
+                    background-color:rgba(black, 0.7);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    form {
+                        width: 350px;
+                        height: 200px;
+                        background-color: white;
+                        border-radius: 10px;
+                        padding: 10px;
+                        position: relative;
+                        .btn_box {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                          
+                            &.save {
+                                position: absolute;
+                                bottom: 10px;
+                                right: 10px;
+                                justify-content: flex-end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

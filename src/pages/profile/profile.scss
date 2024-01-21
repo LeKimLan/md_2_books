@@ -1,0 +1,96 @@
+.profile_page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    .selections {
+        width: 25%;
+        height: 100%;
+        position: relative;
+        margin-right: 15px;
+        ::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 1px;
+            box-shadow: -8px 0 5px rgba(0, 0, 0, 0.7);
+        }
+    }
+    .general_info {
+        width: 70%;
+        height: 100%;
+        .user_info {
+            .table {
+                width: 600px;
+                table, thead, td, tr, th {
+                    border: 1px solid black;
+                    box-sizing: border-box;
+                    padding: 10px;
+                }
+                .table_body {
+                    border: 1px solid black;
+                    box-sizing: border-box;
+                    width: 615px;
+                    height: 200px;
+                    overflow: hidden;
+                    overflow-y: scroll;
+                    scrollbar-width: 30px;
+                }
+                table {
+                    width:  100%;
+                    thead, th {
+                        border: 2px solid black;
+                        // box-sizing: border-box;
+                    }
+                    
+                    tr {
+                        height: 50px;
+                    }
+                    .order {
+                        width: 100px;
+                        height: 100%;
+                    }
+                    .ip_address {
+                        width: 400px;
+                        height: 100%;
+                    }
+                    .tools {
+                        width: 200px;
+                        height: 100%;
+                    }
+                    tbody {
+                        height: 200px;
+                    }
+                }
+            }
+            
+            .user_avatar {
+                img {
+                    width: 350px;
+                    height: 200px;
+                    border-radius: 10px;
+                }
+                
+                label {
+                    width: 80px;
+                    height: 50px;
+                    border-radius: 10px;
+                    border: 2px solid black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                :hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.hidden {
+    display: none;
+}
+.ant-message {
+    z-index: 9999;
+}

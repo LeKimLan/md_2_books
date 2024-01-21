@@ -1,0 +1,11 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import './font.scss';
+@import './size.scss';
+
+$headerHeight: 70px;
+$footerHeight: 300px;
+$maxWidth: 1440px;
+
+.ant-message {
+    z-index: 9999999;
+}
